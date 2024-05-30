@@ -1,0 +1,72 @@
+form {
+  background-image: url("bgImage.jpg");
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  color: white;
+}
+
+.sep-div {
+  border: 3px solid lightblue;
+}
+
+input {
+  background-color: black;
+  margin: 10px 0;
+  height: 50px;
+  padding-left: 30px;
+  border: 1px solid black;
+  color: white;
+}
+
+input:focus,
+textarea:focus {
+  -webkit-box-shadow: 0px 0px 10px 4px rgba(60, 138, 186, 1);
+  -moz-box-shadow: 0px 0px 10px 4px rgba(60, 138, 186, 1);
+  box-shadow: 0px 0px 10px 4px rgba(60, 138, 186, 1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+textarea {
+  padding-top: 10px;
+  color: white;
+  background-color: black;
+  margin: 10px 0;
+  height: 50px;
+  padding-left: 30px;
+  border: 1px solid black;
+  height: 120px;
+}
+
+button {
+  width: 120px;
+  background-color: rgba(60, 138, 186, 1);
+  color: white;
+  border: none;
+  border-radius: 14px;
+  height: 30px;
+}
+
+.invalid {
+  border: 2px solid red;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
